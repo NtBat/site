@@ -3,6 +3,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 
+import { Bubbles } from '@/components/Bubbles'
+
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
@@ -21,7 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body
+        className={`${poppins.className} h-screen bg-gradient-body antialiased`}
+      >
+        {children}
+        <Bubbles />
+      </body>
     </html>
   )
 }
