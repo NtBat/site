@@ -26,6 +26,14 @@ const config: Config = {
           700: '#31313a',
         },
       },
+      screens: {
+        'height-700': {
+          raw: '(max-height: 700px)',
+        },
+        'height-740': {
+          raw: '(max-height: 740px)',
+        },
+      },
     },
   },
   plugins: [],

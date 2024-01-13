@@ -27,9 +27,13 @@ export default function RootLayout({
       <body
         className={`${poppins.className} h-screen bg-gradient-body antialiased`}
       >
-        <Header />
-        {children}
-        <Bubbles />
+        <div className="relative flex h-full w-full items-center justify-center">
+          <div className="height-740:my-[6vh] height-740:h-[88vh] height-700:my-[3vh] height-700:h-[94vh] relative left-0 top-0 mx-[8vh] my-[6vw] max-h-[674px] w-full max-w-[1268px] transition-all">
+            <Header />
+            {children}
+            <Bubbles />
+          </div>
+        </div>
       </body>
     </html>
   )
