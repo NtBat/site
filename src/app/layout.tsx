@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 
 import { Bubbles } from '@/components/Bubbles'
+import { Header } from '@/components/Header'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} h-screen bg-gradient-body antialiased`}
       >
+        <Header />
         {children}
         <Bubbles />
       </body>

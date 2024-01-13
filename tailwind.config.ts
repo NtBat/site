@@ -14,6 +14,17 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'gradient-body':
           'linear-gradient(to bottom right, #17171b 0%, #28282f 100%)',
+        'gradient-line':
+          '-webkit-radial-gradient(right, ellipse farthest-corner, #ddd 0%, rgba(255, 255, 255, 0) 70%)',
+      },
+      colors: {
+        orange: '#ff9800',
+        gray: {
+          100: 'rgba(255,255,255,.85)',
+          300: 'rgba(255,255,255,.55)',
+          500: '#666',
+          700: '#31313a',
+        },
       },
     },
   },
