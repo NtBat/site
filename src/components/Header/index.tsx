@@ -13,7 +13,7 @@ export function Header() {
               <li className="block transition-colors" key={item.title}>
                 <Link
                   href={item.href}
-                  className="before:bg-gradient-line hover:text-orange relative flex h-auto flex-col items-center justify-center gap-1 overflow-hidden bg-gray-700 px-1 py-3 text-center text-xs font-medium uppercase text-gray-100 transition-all before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full"
+                  className="relative flex h-auto flex-col items-center justify-center gap-1 overflow-hidden bg-gray-700 px-1 py-3 text-center text-xs font-medium uppercase text-gray-100 transition-all before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:bg-gradient-line hover:text-orange"
                 >
                   {item.icon}
                   {item.title}
