@@ -16,6 +16,11 @@ const config: Config = {
           'linear-gradient(to bottom right, #17171b 0%, #28282f 100%)',
         'gradient-line':
           '-webkit-radial-gradient(right, ellipse farthest-corner, #ddd 0%, rgba(255, 255, 255, 0) 70%)',
+        'custom-bg': "url('/bg.jpeg')",
+        'gradient-profile':
+          'linear-gradient(135deg, rgba(255, 152, 0, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%)',
+        'gradient-contact':
+          'radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%,rgba(255, 255, 255, 0) 70%)',
       },
       colors: {
         orange: '#ff9800',
@@ -33,6 +38,15 @@ const config: Config = {
         'height-740': {
           raw: '(max-height: 740px)',
         },
+      },
+      boxShadow: {
+        custom: '10px 10px 15px rgba(0, 0, 0, 0.1)',
+      },
+      backgroundColor: {
+        'custom-green': 'rgba(46, 202, 127, 0.1)',
+      },
+      rotate: {
+        '-8': '-8deg',
       },
     },
   },
