@@ -1,6 +1,6 @@
 import { Title } from '../Title'
 
-interface ContentWrapperProps {
+type ContentWrapperProps = {
   children: React.ReactNode
   title: string
 }

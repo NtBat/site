@@ -1,4 +1,4 @@
-interface TitleProps {
+type TitleProps = {
   title: string
 }
 
