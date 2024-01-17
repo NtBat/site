@@ -16,7 +16,7 @@ interface SkillProps {
 
 export function Skill({ techs }: SkillProps) {
   return (
-    <div className="mt-16">
+    <div className="mt-16 pb-6">
       <Title title="Skills" />
       <ul className="mt-5 grid grid-cols-6 gap-7">
         {techs.map((item) => {

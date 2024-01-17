@@ -5,7 +5,7 @@ import { navItem } from '@/models/Header'
 
 export function Header() {
   return (
-    <header className="relative left-0 top-12 z-50 float-left mr-2 w-20">
+    <header className="absolute left-0 top-12 z-50 mr-2 w-20">
       <div className="w-full text-[0px]">
         <div>
           <ul>
